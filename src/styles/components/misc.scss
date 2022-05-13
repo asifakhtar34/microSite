@@ -1,0 +1,10 @@
+$font-family: "Rubik";
+$family: "Rubik";
+$font-family-base: "Rubik", sans-serif;
+$base-font-size: 11;
+
+body {
+  background-color: var(--bg-secondary);
+  font-family: "Rubik", sans-serif;
+  @extend .text-normal;
+}

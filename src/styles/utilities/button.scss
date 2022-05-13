@@ -1,0 +1,10 @@
+.btn {
+  text-align: center;
+  border-radius: 8px;
+  @extend .px-16;
+  vertical-align: middle;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  @extend .text-large;
+}
