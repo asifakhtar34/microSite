@@ -9,7 +9,22 @@ body {
   @extend .text-normal;
 }
 
-.border-radius-6{
+.border-radius-6 {
   border-radius: 6px;
 }
 
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-accent-green {
+  border: 1px solid $accent-green;
+}
+
+.border-light-green {
+  border: 1px solid $light-green-100;
+}
+
+.border-green {
+  border: 1px solid $light-green-200;
+}
