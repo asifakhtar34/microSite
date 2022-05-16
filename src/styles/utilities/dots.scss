@@ -1,10 +1,16 @@
 .dot {
-    height: 16px;
-    width: 16px;
-    min-width: 16px;
-    @extend .d-flex;
-    @extend .justify-content-center;
-    @extend .align-items-center;
-    @extend .text-light;
-    @extend .rounded-circle;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  @extend .text-light;
+  border-radius: 50%;
+  
+  &.dot-xxl {
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+  }
 }
